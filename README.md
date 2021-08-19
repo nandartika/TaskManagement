@@ -44,7 +44,7 @@ Password = "Admin123"
 
 Menambahkan tugas dengan menekan tombol "Add New Task". Upload file dengan menekan tombol "Choose File". File yang diupload bisa lebih dari satu file, file yang diupload hanya dapat dalam bentuk zipper (.zip). Selanjutnya lengkapi formulir isi judul da deskripsi tugas. Kirim formulir dengan menekan tombol "Submit".
 
-Pada halaman beranda terdapat daftar tugas yang sudah ditambahkan. Pengguna dapat melakukan reservasi tugas dengan menekan tombol "Booking" pada tugas yang ingin direservasi, pembatalan reservasi juga dapat dilakukan dengan menekan tombol "Cancel". Tugas yang telah ditambahkan dapat dihapus dengan menekan tombol "Delete".
+Pada halaman beranda terdapat daftar tugas yang sudah ditambahkan. Pengguna dapat melakukan reservasi tugas dengan menekan tombol "Booking" pada tugas yang ingin direservasi, pembatalan reservasi juga dapat dilakukan dengan menekan tombol "Cancel". Tugas yang telah ditambahkan dapat dihapus dengan menekan tombol "Delete". Tugas yang ada didaftar tugas dapat didownload dengan menekan tombol "Download".
 
 Pengguna dapat melakukan logout dengan menekan tombol "Log Out" pada sidebar.
 
