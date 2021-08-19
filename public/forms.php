@@ -19,9 +19,11 @@ include 'header.php';
 
     <?php
     if(isset($_POST["action"]) && $_POST["action"] == "submit"){
+        $filename = $_FILES["upload"]["name"];
         $files = array_filter($_FILES['upload']['name']);
+        $type = $_FILES["upload"]["type"];
 
-        $name = explode(".", $filename);
+        $name = explode(".", $files[0]);
         $accepted_types = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed');
         foreach($accepted_types as $mime_type) {
             if($mime_type == $type) {
@@ -29,14 +31,14 @@ include 'header.php';
                 break;
             } 
         }
-    
+        
         $continue = strtolower($name[1]) == 'zip' ? true : false;
         if(!$continue) {
             $message = "The file you are trying to upload is not a .zip file. Please try again.";
             echo "<script type='text/javascript'>alert('$message');
             window.location.href='http://localhost/TaskManagement/public/formFileUpload.php';
             </script>";
-	}
+        }
 
         // Count # of uploaded files in array
         $total = count($_FILES['upload']['name']);
