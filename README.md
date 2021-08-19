@@ -23,9 +23,9 @@ Download
 Install aplikasi XAMPP
 Jalankan XAMPP, lalu start Apache
 
-Download program dalam bentuk zipper (.zip)
-Hasil download program simpan dalam folder htdoc (biasanya C:/xampp/htdoc)
-unzip file TaskManagement.rar
+Download program dalam bentuk zipper (.zip).
+Hasil download program simpan dalam folder htdoc (biasanya C:/xampp/htdoc).
+Unzip file TaskManagement.rar.
 
 
 Usage
@@ -39,7 +39,7 @@ http://localhost/TaskManagement/public/
 ```
 
 Lakukan login dengan memasukan username dan password yang benar.
-Username = "Admin"
+Username = "Admin",
 Password = "Admin123"
 
 Menambahkan tugas dengan menekan tombol "Add New Task". Upload file dengan menekan tombol "Choose File". File yang diupload bisa lebih dari satu file, file yang diupload hanya dapat dalam bentuk zipper (.zip). Selanjutnya lengkapi formulir isi judul da deskripsi tugas. Kirim formulir dengan menekan tombol "Submit".
